@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
-    "build": "ng build --prod --base-href '/evaluation-david/'",
+    "build": "ng build --prod --base-href /evaluation-david/",
     "deploy": "ngh --branch=gh-pages --repo=https://github.com/daviddebrun/evaluation-david.git",
     "publish": "npm run build && npm run deploy"
   },
